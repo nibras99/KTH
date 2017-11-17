@@ -1,0 +1,8 @@
+c(chopstick).
+c(philosopher).
+c(dinner).
+c(gui).
+
+cover:compile_directory().
+
+dinner:start().

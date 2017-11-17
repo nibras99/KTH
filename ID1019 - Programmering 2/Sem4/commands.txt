@@ -1,0 +1,15 @@
+c(chopstick).
+c(philosopher).
+c(dinner).
+c(gui).
+
+cover:compile_directory().
+
+dinner:start().
+
+shunt:find([c,b,a], [a,b,c]).
+
+moves:move([{one,1},{two,2},{one,-1},{two,-2},{one,1},{two,2},{one,-1},{two,-2},{one,1},{two,2},{one,-1},{two,-2}], {[c,b,a],[],[]};
+{255,0,0}
+
+{ABC, DEF} = ppm:write("C:\Users\Casper\OneDrive\KTH\ÅK2\Programmering 2\Program\Sem4\test.jpg", [[{255,0,0},{255,0,0},{255,0,0}],[{255,0,0},{255,0,0},{255,0,0}],[{255,0,0},{255,0,0},{255,0,0}],[{255,0,0},{255,0,0},{255,0,0}],[{255,0,0},{255,0,0},{255,0,0}],[{255,0,0},{255,0,0},{255,0,0}]]).
