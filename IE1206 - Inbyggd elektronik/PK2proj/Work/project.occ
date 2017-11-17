@@ -1,0 +1,27 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+project.c:
+ 26. Apr 2016  23:10
+ Chip = 16F690
+Warning project.c 441: Local variables and parameters in uncalled functions are not allocated (3)
+ (The application contains non-library functions that are not called. Local
+ variables in these functions (option -wU) are not allocated to save space)
+ RAM : -------- -------- -------- -------- ======== ======== ........ .....***
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 29 bytes (16 local), 227 bytes free
+ Optimizing - removed 17 instructions (-2 %)
+ File 'project.asm'
+ File 'project.occ'
+Warning project.c 100: Read-modify-write sequence on the same PORT may fail
+ (Two consecutive instructions modifying the same PORT may fail depending on
+ execution speed and load (fall/rise times) on the port pins. Option -wf will
+ remove this warning)
+ File 'project.hex'
+ Codepage 0 has  644 word(s) :  31 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 644 code words (15 %)
+ * Estimated CODE SIZE of full optimization: 504 code words (-21 %)

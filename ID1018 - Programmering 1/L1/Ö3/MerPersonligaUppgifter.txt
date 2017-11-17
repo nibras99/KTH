@@ -1,0 +1,5 @@
+Förnamn: Casper
+Efternamn: Johansson
+Födelseår: 1996
+Födelsemånad: September
+Födelsedag: 26

@@ -1,0 +1,103 @@
+Kommentarer uppbygda såhär:
+
+kodrad
+egen kommentar om vad som händer
+möjligtvis flera rader kommentarer
+
+Om en rad har ? framför sig så är jag osäker om det stämmer.
+
+int gv;
+Skapar en global variabel med namnet gv
+
+int in = 3;
+Skapar en global variabel med namnet in som har värdet 3
+
+int m;
+Skapar en lokal variabel m
+
+int * p;
+Skapar en lokal pekare med namnet p
+
+char c[ 4 ] = "Hej";
+? Skapar en lokal char array som innehåller "Hej" som startvärde
+
+gv = 4;
+Sätter den globala variabeln gv som 4
+
+m = gv + in;
+Sätter den lokala variabeln m som gv + ln, alltså 4 + 3 = 7
+
+p = &m;
+Pekaren p pekar nu på variabeln m. Innehåller alltså m's minnesadress
+
+*p = *p + 1;
+Ökar det värde som pekaren p pekar på med 1, alltså m är nu lika med 8
+
+p = (int*)c;
+? Pekaren p pekar nu på c's minnesadress.
+
+*p = 0x1234abcd;
+Den plats som pekaren pekar på ersätts nu med värdet 0x1234abcd, alltså minnesadressebs innehåll ersätts.
+? charplatserna ersätts alltså med 12, 34, ab, respektive cd.
+? c[0] får då LSB, c[1] får platsen därefter osv....
+
+fun(m);
+Skickar med m till funktionen fun.
+m = param
+
+param++;
+Ökar param med 1, alltså ökar m med 1, m är nu lika med 8 + 1 = 9.
+? Detta skulle man tro. Men eftersom m är en lokal variabel så är det endast param som ökas med 1, inte m.
+? Param blir alltså 9, m består som 8.
+
+gv = param;
+Sätter gv som param, alltså är gv nu 9
+
+Consider AM18, AM19, and AF1. Explain why gv ends up with the incremented value, but
+m does not.
+Besvaras genom att följa mina steg ovan, specifikt de två sista.
+
+Pointer c is a character pointer that points to a sequence of bytes. What is the size of the c
+pointer itself?
+? En pekare pekar på en minnesadress som själv består av 32 bitar, eller 4 bytes, därav skulle jag
+? vilja säga att det är dess storlek.
+
+Which addresses have fun and main? Which sections are they located in? What kind of
+memory are they stored in? What is the meaning of the data that these symbols points to?
+Fun har adressen 0x9D001180
+Main har adressen 0x9D0011D8
+De ligger i sektionen för Program Flash, om man kollar på Virtual Memory Map
+? Jag skulle gissa på att de ligger där för att de är funktioner som kittet/"datorn" måste köra.
+
+Which addresses are variables in and gv located at? Which memory sections according to
+the PIC32 memory map? Why?
+in ligger på 0xA0000008
+gv ligger på 0xA000000C
+Dessa två är i RAM minnet.
+? De ligger där för att de är globala variablar som måste kunna kommas åt från allt.
+
+Variables p and m are not global variables. Where are they allocated? Which memory
+section is used for these variables? Why are the address numbers for p and m much larger
+than for in and gv?
+p har adressen 0xA0003FEC
+m har adressen 0xA0003FE8
+Dessa ligger i minnessektionen Reserved.
+? De är mycket större för att de är lokala variablar som inte behöver användas like mycket (möjligtvis) och därmed
+? lagras på en plats som svårare / tar längre tid att komma åt.
+
+At print statement AM5, what is the address of pointer p, what is the value of pointer p, and
+what value is pointer p pointing to?
+Adressen är 0xA0003FEC
+Den innehåller datan 0xA0003FE8
+Adressen 0xA0003FE8 är variabeln m's adress. Alltså det p pekar på.
+
+At print statement AM7, what is the address of pointer p, what is the value of pointer p, and
+what value is pointer p pointing to?
+Adressen är 0xA0003FEC
+Den innehåller datan 0xA0003FE8
+Adressen 0xA0003FE8 är fortfarande variabeln m's adress.
+Variabeln m innehåller värdet 0x00000008
+
+Consider AM14 to AM17. Is the PIC32 processor using big-endian or little-endian? Why?
+Little-endian. Den börjar fylla från LSB när det kommer till värdet 0x1234abcd.
+Den fyller plats 0 med CD, plats 1 med AB, plats 2 med 34, plats 3 med 12

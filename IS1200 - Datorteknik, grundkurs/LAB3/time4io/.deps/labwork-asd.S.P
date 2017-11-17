@@ -1,0 +1,2 @@
+labwork-asd.S.o: labwork-asd.S
+labwork-asd.S :
