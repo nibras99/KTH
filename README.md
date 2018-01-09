@@ -5,4 +5,22 @@ The code may not be optimized or functional in the best possible way due to cour
 
 Please note that some code may be provided for a course and not written by me. It may also contain images and/or text not copyrighted by me.
 
-For information about specific code pieces, feel free to open a issue.
+### Courses taken during the following periods:
+#### P2 2015/2016
+- ID1018 - Programmering 1
+#### P3 2015/2016
+- IS1200 - Datorteknik, grundkurs
+#### P4 2015/2016
+- IE1206 - Inbyggd elektronik
+
+#### P1 2016/2017
+- ID1020 - Algoritmer och datastruktur
+#### P3 2016/2017
+- ID1019 - Programmering 2
+
+#### P2 2017/2018
+DD2350 - Algoritmer, datastruktur och komplexitet
+#### P3 2017/2018
+DD2350 - Algoritmer, datastruktur och komplexitet
+
+For information about specific code pieces, feel free to open a issue or contact me by email.
