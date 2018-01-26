@@ -18,9 +18,10 @@ Please note that some code may be provided for a course and not written by me. I
 #### P3 2016/2017
 - ID1019 - Programmering 2
 
+#### P1 2017/2018
+- DD2350 - Algoritmer, datastruktur och komplexitet
 #### P2 2017/2018
-DD2350 - Algoritmer, datastruktur och komplexitet
-#### P3 2017/2018
-DD2350 - Algoritmer, datastruktur och komplexitet
+- DD2350 - Algoritmer, datastruktur och komplexitet
+- ID1354 - Applikationer för internet, grundkurs
 
 For information about specific code pieces, feel free to open a issue or contact me by email.
