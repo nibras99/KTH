@@ -1,0 +1,78 @@
+<?php
+require_once 'layout/header.php'
+?>
+    <div id="calender-wrapper">
+        <table>
+            <tr>
+                <th>Mån</th>
+                <th>Tis</th>
+                <th>Ons</th>
+                <th>Tor</th>
+                <th>Fre</th>
+                <th>Lör</th>
+                <th>Sön</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9<a href="/recipes/meatballs"><img src="images/meatballs.jpg" alt="Bild på köttbullar"></a></td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26<a href="/recipes/pancakes"><img src="images/pancakes.jpg" alt="Bild på pannkakor"></a></td>
+            </tr>
+            <tr>
+                <td>
+                    <div>30</div>
+                </td>
+                <td>
+                    <div>31</div>
+                </td>
+                <td>
+                    <div></div>
+                </td>
+                <td>
+                    <div></div>
+                </td>
+                <td>
+                    <div></div>
+                </td>
+                <td>
+                    <div></div>
+                </td>
+                <td>
+                    <div></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+<?php
+require_once 'layout/footer.php'
+?>

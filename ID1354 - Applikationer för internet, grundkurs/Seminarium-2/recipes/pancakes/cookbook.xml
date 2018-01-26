@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="46">
+    <recipe>
+        <title>Pannkakor</title>
+        <preptime>11 min</preptime>
+        <cooktime>22 min</cooktime>
+        <totaltime>33 min</totaltime>
+        <ingredient>
+            <li>3 dl vetemjöl</li>
+            <li>6 dl mjölk</li>
+            <li>3 ägg</li>
+            <li>&#x000BD; tsk salt</li>
+            <li>2 msk smör</li>
+        </ingredient>
+        <recipetext>
+            <li>Vispa ut mjölet i hälften av mjölken till en slät smet.</li>
+            <li>Vispa i resterande mjölk, ägg och salt.</li>
+            <li>Låt smeten svälla ca 10 min.</li>
+            <li>Smält smör i en stekpanna och häll ner i smeten.</li>
+            <li>Grädda tunna pannkakor.</li>
+        </recipetext>
+        <url></url>
+        <quantity>4 st</quantity>
+        <imagepath>images/pancakes.jpg</imagepath>
+        <imageurl></imageurl>
+        <comments></comments>
+        <source></source>
+        <video></video>
+        <nutrition></nutrition>
+        <rating></rating>
+        <category></category>
+    </recipe>
+</cookbook>

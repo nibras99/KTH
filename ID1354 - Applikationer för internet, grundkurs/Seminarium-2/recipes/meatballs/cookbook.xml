@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="46">
+    <recipe>
+        <title>Köttbullar</title>
+        <preptime>10 min</preptime>
+        <cooktime>20 min</cooktime>
+        <totaltime>30 min</totaltime>
+        <ingredient>
+            <li>500 g köttfärs</li>
+            <li>&#x000BD; dl ströbröd</li>
+            <li>1 dl matlagningsgrädde</li>
+            <li>2 msk finhackad lök</li>
+            <li>1 ägg</li>
+            <li>1 tsk salt</li>
+            <li>1 krm svartpeppar</li>
+            <li>2 msk smör- &#x26; rapsolja</li>
+        </ingredient>
+        <recipetext>
+            <li>Blanda ströbröd och grädde.</li>
+            <li>Låt svälla 10 min.</li>
+            <li>Lägg i färs, lök, ägg, salt och peppar.</li>
+            <li>Rör till en jämn smet.</li>
+            <li>Forma smeten till jämna bullar.</li>
+            <li>Stek dem i smör- &#x26; rapsolja på medelvärme 3-5 min.</li>
+        </recipetext>
+        <url></url>
+        <quantity>4 st</quantity>
+        <imagepath>images/meatballs.jpg</imagepath>
+        <imageurl></imageurl>
+        <comments></comments>
+        <source></source>
+        <video></video>
+        <nutrition></nutrition>
+        <rating></rating>
+        <category></category>
+    </recipe>
+</cookbook>
