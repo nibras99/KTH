@@ -23,5 +23,7 @@ Please note that some code may be provided for a course and not written by me. I
 #### P2 2017/2018
 - DD2350 - Algoritmer, datastruktur och komplexitet
 - ID1354 - Applikationer för internet, grundkurs
+#### P3 2017/2018
+- ID1217 - Programmering av parallella system
 
 For information about specific code pieces, feel free to open a issue or contact me by email.
