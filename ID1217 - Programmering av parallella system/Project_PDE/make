@@ -1,0 +1,14 @@
+# Usage for program:
+# gridSize numIters (numThreads)
+
+g++ -o one one.cpp
+./one 5 1
+
+g++ -o two two.cpp -fopenmp
+./two 5 1 4
+
+g++ -o three three.cpp
+./three 5 1
+
+g++ -o four four.cpp -fopenmp
+./four 5 1 4
